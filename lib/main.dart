@@ -14,14 +14,17 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red,
       ),
       body: Center(
-        child: Text('Hello World',
-            style: TextStyle(
-              fontSize: 20.0,
-              fontWeight: FontWeight.bold,
-              letterSpacing: 2.0,
-              color: Colors.grey,
-              fontFamily: 'IndieFlower',
-            )),
+        child: Image(
+          image: NetworkImage(
+              'https://images.unsplash.com/photo-1542480118439-cbba7870f6f7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80'),
+          // child: Text('Hello World',
+          //     style: TextStyle(
+          //       fontSize: 20.0,
+          //       fontWeight: FontWeight.bold,
+          //       letterSpacing: 2.0,
+          //       color: Colors.grey,
+          //       fontFamily: 'IndieFlower',
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
